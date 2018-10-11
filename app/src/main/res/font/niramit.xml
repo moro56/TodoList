@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:font="@font/niramit_extralight"
+        app:fontStyle="normal"
+        app:fontWeight="200" />
+    <font
+        app:font="@font/niramit_extralightitalic"
+        app:fontStyle="italic"
+        app:fontWeight="200" />
+    <font
+        app:font="@font/niramit_light"
+        app:fontStyle="normal"
+        app:fontWeight="300" />
+    <font
+        app:font="@font/niramit_lightitalic"
+        app:fontStyle="italic"
+        app:fontWeight="300" />
+    <font
+        app:font="@font/niramit_italic"
+        app:fontStyle="italic"
+        app:fontWeight="400" />
+    <font
+        app:font="@font/niramit_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+    <font
+        app:font="@font/niramit_medium"
+        app:fontStyle="normal"
+        app:fontWeight="500" />
+    <font
+        app:font="@font/niramit_mediumitalic"
+        app:fontStyle="italic"
+        app:fontWeight="500" />
+    <font
+        app:font="@font/niramit_semibold"
+        app:fontStyle="normal"
+        app:fontWeight="600" />
+    <font
+        app:font="@font/niramit_semibolditalic"
+        app:fontStyle="italic"
+        app:fontWeight="600" />
+    <font
+        app:font="@font/niramit_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
+    <font
+        app:font="@font/niramit_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
+    <font
+        app:font="@font/niramit_bolditalic"
+        app:fontStyle="italic"
+        app:fontWeight="700" />
+</font-family>

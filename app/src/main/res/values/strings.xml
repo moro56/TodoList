@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TodoList</string>
+
+    <string name="act_home">To-do List</string>
+    <string name="act_todo_create">To-do Creation</string>
+
+    <string name="navigation_go_back">Go back</string>
+
+    <string name="todo_create_title">Title</string>
+    <string name="todo_create_description">Description</string>
+    <string name="todo_create_description_optional">(Optional)</string>
+    <string name="todo_create_button">Create to-do</string>
+    <string name="todo_create_error_validation_title">Please, insert a title!</string>
+    <string name="todo_create_error_insert">An error has occurred during the creation of the To-do, please try again.</string>
+</resources>

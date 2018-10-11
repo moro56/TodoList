@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFBF00</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#00D3ED</color>
+
+    <color name="checkbox_not_checked">#6F7476</color>
+    <color name="checkbox_hook">#FFFFFF</color>
+    <color name="checkbox_circle">@color/colorAccent</color>
+
+    <color name="form">#F3F3F5</color>
+
+    <color name="text_navigation">#BFBFCA</color>
+
+    <color name="alert_error">#F84242</color>
+    <color name="alert_warning">#F8BE42</color>
+    <color name="alert_success">#3cca42</color>
+</resources>
