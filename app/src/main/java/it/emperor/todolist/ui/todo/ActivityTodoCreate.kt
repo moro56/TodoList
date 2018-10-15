@@ -6,6 +6,7 @@ import android.view.inputmethod.EditorInfo
 import androidx.lifecycle.Observer
 import it.emperor.todolist.R
 import it.emperor.todolist.databinding.TodoCreateActivityBinding
+import it.emperor.todolist.extension.closeKeyboard
 import it.emperor.todolist.extension.errorAlert
 import it.emperor.todolist.state.Status
 import it.emperor.todolist.ui.base.BaseActivity
@@ -30,6 +31,8 @@ class ActivityTodoCreate : BaseActivity<TodoCreateActivityBinding, ViewModelTodo
 
         description.imeOptions = EditorInfo.IME_ACTION_DONE
         description.setRawInputType(InputType.TYPE_CLASS_TEXT)
+
+        container.setOnClickListener { closeKeyboard() }
 
         viewModel.state.observe(this, Observer {
             when (it.status) {

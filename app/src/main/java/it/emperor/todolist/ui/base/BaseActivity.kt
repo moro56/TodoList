@@ -1,6 +1,7 @@
 package it.emperor.todolist.ui.base
 
 import android.os.Bundle
+import android.widget.FrameLayout
 import androidx.annotation.LayoutRes
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
@@ -10,7 +11,7 @@ import androidx.lifecycle.ViewModelProviders
 import dagger.android.support.DaggerAppCompatActivity
 import it.emperor.todolist.R
 import it.emperor.todolist.view.NavigationView
-import kotlinx.android.synthetic.main._toolbar.*
+import kotlinx.android.synthetic.main._toolbar.view.*
 import org.greenrobot.eventbus.EventBus
 import javax.inject.Inject
 
@@ -37,7 +38,7 @@ abstract class BaseActivity<B : ViewDataBinding, T : ViewModel> : DaggerAppCompa
         binding = DataBindingUtil.setContentView(this, layoutRes())
         viewModel = ViewModelProviders.of(this, viewModelFactory).get(viewModelClass())
 
-        toolbar?.let {
+        findViewById<FrameLayout>(R.id.toolbar_layout)?.toolbar?.let {
             setSupportActionBar(it)
             it.navigationIcon = null
         }

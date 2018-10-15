@@ -23,7 +23,8 @@
         </activity>
         <activity
             android:name=".ui.todo.ActivityTodoCreate"
-            android:label="@string/act_todo_create" />
+            android:label="@string/act_todo_create"
+            android:windowSoftInputMode="adjustPan|stateVisible" />
     </application>
 
 </manifest>
